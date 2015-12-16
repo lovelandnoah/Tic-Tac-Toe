@@ -1,0 +1,58 @@
+
+.tic-tac-toe-box {
+  width: 200px !important;
+  height: 200px !important;
+  /*margin: 0px;*/
+  border: 2px solid white;
+  background-color: #D75641;
+}
+
+.player-name1 {
+  color: white;
+  font-size: 44px;
+}
+
+.player-name2 {
+	color: white;
+	font-size: 45px;
+}
+
+.row {
+	margin-bottom: 0px !important;
+}
+
+.h {
+	text-align: center;
+	color: white;
+}
+
+.tic-tac {
+	text-align: center;
+	font-size: 130px;
+	vertical-align: middle;
+	margin-left: 29% !important;
+
+}
+
+.button {
+	background-color: #D75641;
+	color: black;
+	padding: 8px 8px 8px 8px;
+	font-size: 20px;
+}
+
+.align {
+	text-align: center;
+}
+
+
+.almost {
+	margin-left: 25% !important;
+	text-align: center !important;
+}
+
+
+body {
+	background-color: grey;
+}
+
