@@ -1,4 +1,3 @@
-
 var playerOneName = prompt('What is your Name Player who gets to the keyboard first?');
 var playerTwoName = prompt('what is your Name Player who is slower than player 1?');
 document.getElementById('player_one_name').innerHTML = playerOneName;
@@ -8,77 +7,6 @@ var boxes = document.getElementsByClassName('tic-tac-toe-box');
 console.log(boxes);
 
 var wholeBoard = "X"
-
-
-
-
-
-
-
-// Win Check
-
-function winCheckX(){
-	debugger;
-	if(sq1 == "X" && sq2 == "X" && sq3 == "X"){
-		alert("X Wins!!")
-	} 
-	else if(sq4 == "X" && sq5 == "X" && sq6 == "X"){
-		alert("X Wins!!")
-	}
-	else if(sq7 == "X" && sq8 == "X" && sq9 == "X"){
-		alert("X Wins!!")
-	}
-	else if(sq1 == "X" && sq4 == "X" && sq7 == "X"){
-		alert("X Wins!!")
-	}
-	else if(sq2 == "X" && sq5 == "X" && sq8 == "X"){
-		alert("X Wins!!")
-	}
-	else if(sq3 == "X" && sq6 == "X" && sq9 == "X"){
-		alert("X Wins!!")
-	}
-	else if(sq1 == "X" && sq5 == "X" && sq9 == "X"){
-		alert("X Wins!!")
-	}
-	else if(sq3 == "X" && sq5 == "X" && sq7 == "X"){
-		alert("X Wins!!")
-	}
-}
-
-
-function winCheckO(){
-	if(sq1 == "O" && sq2 == "O" && sq3 == "O"){
-		alert("O Wins!!")
-	} 
-	else if(sq4 == "O" && sq5 == "O" && sq6 == "O"){
-		alert("O Wins!!")
-	}
-	else if(sq7 == "O" && sq8 == "O" && sq9 == "O"){
-		alert("O Wins!!")
-	}
-	else if(sq1 == "O" && sq4 == "O" && sq7 == "O"){
-		alert("O Wins!!")
-	}
-	else if(sq2 == "O" && sq5 == "O" && sq8 == "O"){
-		alert("O Wins!!")
-	}
-	else if(sq3 == "O" && sq6 == "O" && sq9 == "O"){
-		alert("O Wins!!")
-	}
-	else if(sq1 == "O" && sq5 == "O" && sq9 == "O"){
-		alert("O Wins!!")
-	}
-	else if(sq3 == "O" && sq5 == "O" && sq7 == "O"){
-		alert("O Wins!!")
-	}
-}
-
-
-
-
-
-
-
 
 for(var i = 0; i < boxes.length; i++) {
 	var box = boxes[i];
@@ -159,5 +87,59 @@ clear.addEventListener('click', function() {
 	};
 })
 
+// Win Check
 
+// function winCheckX(){
+// 	debugger;
+// 	if(sq1 == "X" && sq2 == "X" && sq3 == "X"){
+// 		alert("X Wins!!")
+// 	} 
+// 	else if(sq4 == "X" && sq5 == "X" && sq6 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// 	else if(sq7 == "X" && sq8 == "X" && sq9 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// 	else if(sq1 == "X" && sq4 == "X" && sq7 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// 	else if(sq2 == "X" && sq5 == "X" && sq8 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// 	else if(sq3 == "X" && sq6 == "X" && sq9 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// 	else if(sq1 == "X" && sq5 == "X" && sq9 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// 	else if(sq3 == "X" && sq5 == "X" && sq7 == "X"){
+// 		alert("X Wins!!")
+// 	}
+// }
 
+// function winCheckO(){
+// 	if(sq1 == "O" && sq2 == "O" && sq3 == "O"){
+// 		alert("O Wins!!")
+// 	} 
+// 	else if(sq4 == "O" && sq5 == "O" && sq6 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// 	else if(sq7 == "O" && sq8 == "O" && sq9 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// 	else if(sq1 == "O" && sq4 == "O" && sq7 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// 	else if(sq2 == "O" && sq5 == "O" && sq8 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// 	else if(sq3 == "O" && sq6 == "O" && sq9 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// 	else if(sq1 == "O" && sq5 == "O" && sq9 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// 	else if(sq3 == "O" && sq5 == "O" && sq7 == "O"){
+// 		alert("O Wins!!")
+// 	}
+// }
